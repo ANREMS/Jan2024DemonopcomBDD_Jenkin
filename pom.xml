@@ -142,6 +142,13 @@
       <version>1.14.0</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.24</version> <!-- Replace with the latest version -->
+      <scope>provided</scope>
+    </dependency>
+
 
   </dependencies>
 
@@ -187,6 +194,24 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.0</version>
+          <configuration>
+            <source>11</source> <!-- or 8 -->
+            <target>11</target> <!-- or 8 -->
+            <annotationProcessorPaths>
+              <path>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.24</version> <!-- Replace with the latest version -->
+              </path>
+            </annotationProcessorPaths>
+          </configuration>
+        </plugin>
+
       </plugins>
     </pluginManagement>
   </build>
