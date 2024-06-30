@@ -1,4 +1,4 @@
 $(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([{"id":"a16beb54-87e4-476b-9501-7dcec7df12ff","feature":"Login","scenario":"Login","start":1719654246562,"group":1,"content":"","tags":"@alogin,","end":1719654258663,"className":"passed"},{"id":"ba52b845-1c0a-46e3-b955-46046b771d63","feature":"Registration","scenario":"Registration","start":1719654220184,"group":1,"content":"","tags":"@bregistration,","end":1719654246548,"className":"passed"}]);
+CucumberHTML.timelineItems.pushArray([{"id":"63562ce3-3c73-4553-936b-0effb76e913a","feature":"Registration","scenario":"Registration","start":1719755397389,"group":1,"content":"","tags":"@bregistration,","end":1719755418775,"className":"passed"},{"id":"898c4317-7f63-49e5-91b9-72d7debfd0cb","feature":"Login","scenario":"Login","start":1719755418796,"group":1,"content":"","tags":"@alogin,","end":1719755430941,"className":"passed"}]);
 CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[#1,main,5,main]"}]);
 });

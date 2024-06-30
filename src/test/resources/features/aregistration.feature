@@ -16,6 +16,6 @@ As a user I want to register
 
         Examples:
             |gender     | firstname | lastname | DOBDay | DOBMonth | DOBYear |email            |  companyname  | newsletter |password | passwordconfirm |
-            | Male       | John       | doe     |25       |March    |1990     |johndoe10@test.com|johndoe Limited  |Yes         |Johndoe  |Johndoe       |
+            | Male       | John       | doe     |25       |March    |1990     |johndoe4@test.com|johndoe Limited  |Yes         |Johndoe  |Johndoe       |
 
 

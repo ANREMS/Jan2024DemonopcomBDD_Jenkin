@@ -12,5 +12,5 @@
 
     Examples:
       |email            | password |
-      | johndoe10@test.com | Johndoe |
+      | johndoe4@test.com | Johndoe |
 
